@@ -8,5 +8,6 @@ import { UserInputModule } from '../user-input/modules/user-input.module';
   imports: [UserInputModule],
   controllers: [CrowlerController],
   providers: [LaunchBrowserService],
+  exports: [LaunchBrowserService],
 })
 export class CrowlerModule {}

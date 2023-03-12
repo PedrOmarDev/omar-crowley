@@ -14,8 +14,6 @@ export class CrowlerController {
   async launch() {
     const userInput = await this.getUserInputService.execute();
 
-    console.log('userInput: ', userInput);
-
     // this.launchBrowserService.execute();
   }
 }
